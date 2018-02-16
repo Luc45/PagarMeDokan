@@ -29,3 +29,5 @@ Para realizar um split payment, é necessário informar diversos dados para o Pa
 
 ## Configuração no Pagar.me
 Acesse sua conta no Pagar.Me, pegue sua API key de teste e desenvolvimento e insira-a nos respectivos campos disponíveis em WooCommerce -> Configuração -> Finalizar Compra -> Pagar.me Cartão de Crédito -> **Chave de API do Pagar.me** e **Chave de Criptografia do Pagar.me**
+
+No seu dashboard do Pagar.me, é possível selecionar a versão da API. Este código foi escrito usando a API versão **2017-07-17**
