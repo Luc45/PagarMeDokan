@@ -1,3 +1,4 @@
+
 # PagarMeDokan
 Esta é uma integração de Pagar.me com Dokan, com Split Payments que programei para um cliente. Como não encontrei nada parecido com isso disponível na internet, pedi autorização para o cliente para publicar no Github, e ele autorizou.
 
@@ -29,6 +30,11 @@ Para realizar um split payment, é necessário informar diversos dados para o Pa
 [2] Gentileza confirmar se é realmente necessário. Fiz este projeto há vários meses atrás.
 
 ## Configuração no Pagar.me
-Acesse sua conta no Pagar.Me, pegue sua API key de teste e desenvolvimento e insira-a nos respectivos campos disponíveis em WooCommerce -> Configuração -> Finalizar Compra -> Pagar.me Cartão de Crédito -> **Chave de API do Pagar.me** e **Chave de Criptografia do Pagar.me**
+- Acesse o dashboard do Pagar.Me em https://dashboard.pagar.me
+- No canto superior direito, clique em `{NOME} Ver minha conta`
+- No canto inferior esquerdo, clique em `API Keys`
+- Copie a `Chave de API` e `Chave de Criptografia` e insira-as nos respectivos campos disponíveis em WooCommerce -> Configuração -> Finalizar Compra -> Pagar.me Cartão de Crédito -> **Chave de API do Pagar.me** e **Chave de Criptografia do Pagar.me**
+
+Importante: As chaves de API são diferentes para teste e para produção. As chaves de API do Pagar.me para produção começam com `ak_live_{API}`/`ek_live_{CRIPTOGRAFIA}`, já as chaves de teste começam com `ak_test_{API}`/`ek_test_{CRIPTOGRAFIA}`.
 
 No seu dashboard do Pagar.me, é possível selecionar a versão da API. Este código foi escrito usando a API versão **2017-07-17**
