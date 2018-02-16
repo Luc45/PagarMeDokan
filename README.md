@@ -24,6 +24,7 @@ Para realizar um split payment, é necessário informar diversos dados para o Pa
 - [Dokan](https://br.wordpress.org/plugins/dokan-lite/) [1]
 - [WooCommerce Correios](https://br.wordpress.org/plugins/woocommerce-correios/) [2]
 - [WooCommerce Extra Checkout Fields for Brazil](https://br.wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/) [2]
+
 [1] O cliente em questão possuia o Dokan Lite e o Pro. Creio que o split payment funcione sem o Pro, mas não cheguei a testar.
 [2] Gentileza confirmar se é realmente necessário. Fiz este projeto há vários meses atrás.
 
