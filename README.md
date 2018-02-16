@@ -18,6 +18,7 @@ Para realizar um split payment, é necessário informar diversos dados para o Pa
 - Baixe o repositório
 - Copie o conteúdo dele na pasta do seu tema
 - Execute o `composer update` para instalar a API do Pagar.Me
+- Insira as chaves de API do Pagar.me conforme explicado mais abaixo.
 - Abra o arquivo **pagarme_dokan.php** e configure as settings iniciais.
 - Adicione isto no seu **functions.php** `require_once(__DIR__.'/pagarme_dokan.php');`
 
