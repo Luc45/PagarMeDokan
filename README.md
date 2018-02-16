@@ -15,7 +15,7 @@ Para realizar um split payment, é necessário informar diversos dados para o Pa
  - Se um comprador tentasse comprar um produto cujo seller não tem os dados bancários cadastrados no sistema, daria erro na hora de enviar a solicitação de split payment para o Pagar.me, logo não é possível adicionar produtos de sellers com dados bancários incompletos no carrinho.
 
  ## Frete
- O sistema pede dados de endereço para fins de cálculo de frente. É possível que um comprador compre produtos de diferentes vendedores em um carrinho. O cálculo de frete é realizado tendo em consideração o endereço de cada Seller como remetente, e o destinatário como o endereço do comprador. O split payment separa o frete, enviando o valor integral deste para o Seller.
+ O sistema pede dados de endereço para fins de cálculo de frete. É possível que um comprador compre produtos de diferentes vendedores em um carrinho. O cálculo de frete é realizado tendo em consideração o endereço de cada Seller como remetente, e o destinatário como o endereço do comprador. O split payment separa o frete, enviando o valor integral deste para o Seller.
 
 ## Instalação
 - Baixe o repositório
