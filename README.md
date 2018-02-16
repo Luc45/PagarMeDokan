@@ -44,3 +44,7 @@ Para realizar um split payment, é necessário informar diversos dados para o Pa
 Importante: As chaves de API são diferentes para teste e para produção. As chaves de API do Pagar.me para produção começam com `ak_live_{API}`/`ek_live_{CRIPTOGRAFIA}`, já as chaves de teste começam com `ak_test_{API}`/`ek_test_{CRIPTOGRAFIA}`.
 
 No seu dashboard do Pagar.me, é possível selecionar a versão da API. Este código foi escrito usando a API versão **2017-07-17**
+
+## Sobre o autor
+Meu nome é Lucas Bustamante, sou desenvolvedor PHP profissional e estou disponível para trabalhos freelancer. Mais informações:
+http://www.lucasbustamante.com.br
