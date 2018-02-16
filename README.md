@@ -14,6 +14,9 @@ Para realizar um split payment, é necessário informar diversos dados para o Pa
  - É possível esconder os produtos de sellers com dados bancários e/ou endereço incompletos.
  - Se um comprador tentasse comprar um produto cujo seller não tem os dados bancários cadastrados no sistema, daria erro na hora de enviar a solicitação de split payment para o Pagar.me, logo não é possível adicionar produtos de sellers com dados bancários incompletos no carrinho.
 
+ ## Frete
+ O sistema pede dados de endereço para fins de cálculo de frente. É possível que um comprador compre produtos de diferentes vendedores em um carrinho. O cálculo de frete é realizado tendo em consideração o endereço de cada Seller como remetente, e o destinatário como o endereço do comprador. O split payment separa o frete, enviando o valor integral deste para o Seller.
+
 ## Instalação
 - Baixe o repositório
 - Copie o conteúdo dele na pasta do seu tema
@@ -26,7 +29,7 @@ Para realizar um split payment, é necessário informar diversos dados para o Pa
 - [WooCommerce](https://br.wordpress.org/plugins/woocommerce/)
 - [WooCommerce Pagar.me](https://br.wordpress.org/plugins/woocommerce-pagarme/)
 - [Dokan](https://br.wordpress.org/plugins/dokan-lite/) [1]
-- [WooCommerce Correios](https://br.wordpress.org/plugins/woocommerce-correios/) [2]
+- [WooCommerce Correios](https://br.wordpress.org/plugins/woocommerce-correios/)
 - [WooCommerce Extra Checkout Fields for Brazil](https://br.wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/) [2]
 
 [1] O cliente em questão possuia o Dokan Lite e o Pro. Creio que o split payment funcione sem o Pro, mas não cheguei a testar.
