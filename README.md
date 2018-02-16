@@ -1,6 +1,8 @@
 
-# PagarMeDokan
-Esta é uma integração de Pagar.me com Dokan, com Split Payments que programei para um cliente. Como não encontrei nada parecido com isso disponível na internet, pedi autorização para o cliente para publicar no Github, e ele autorizou.
+# Pagar.me + Dokan com Split Payments
+Esta é uma integração de Pagar.me + Dokan, com Split Payments que programei para um cliente. Como não encontrei nada parecido com isso disponível na internet, pedi autorização para o cliente para publicar no Github, e ele autorizou.
+
+O Pagar.me é similar ao PagSeguro, porém até o momento em que escrevo este texto, não existe integração gratuita de split payment para PagSeguro com Dokan também.
 
 ## Funcionamento
 Para realizar um split payment, é necessário informar diversos dados para o Pagar.me. A integração funciona da seguinte forma:
