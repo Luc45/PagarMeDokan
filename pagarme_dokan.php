@@ -45,7 +45,8 @@ else:
         'desabilitar_single_de_produtos_seller_incompleto' => true,
         'desabilitar_listagem_de_produtos_seller_incompleto' => false,
         'proibe_add_carrinho_produto_seller_incompleto' => true,
-        'id_usuario_pagarmedokan_para_split' => 1 // MUITO IMPORTANTE
+        'id_usuario_pagarmedokan_para_split' => 1, // MUITO IMPORTANTE
+        'nome_site' => get_bloginfo('name')
     ];
 endif;
 
