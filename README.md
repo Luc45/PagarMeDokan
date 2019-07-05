@@ -49,5 +49,5 @@ Importante: As chaves de API são diferentes para teste e para produção. As ch
 No seu dashboard do Pagar.me, é possível selecionar a versão da API. Este código foi escrito usando a API versão **2017-07-17**
 
 ## Sobre o autor
-Meu nome é Lucas Bustamante, sou desenvolvedor PHP profissional e estou disponível para trabalhos freelancer. Mais informações:
+Meu nome é Lucas Bustamante, sou desenvolvedor PHP profissional e NO MOMENTO NAO ESTOU disponível para trabalhos freelancer. Mais informações:
 http://www.lucasbustamante.com.br
