@@ -1,3 +1,6 @@
+# ATENCAO
+
+Pessoal, esse codigo é BETA e deve ser implementado por um PROGRAMADOR PHP. Ele nao é um codigo Cntrl+C Cntrl+V como a maioria dos plugins. Ele é soh uma BASE para que um PROGRAMADOR possa implementar essa solucao em seu site com uma relativa facilidade. Nao é feito para o usuario final que nao sabe programar.
 
 # Pagar.me + Dokan com Split Payments
 Esta é uma integração de Pagar.me + Dokan, com Split Payments que programei para um cliente. Como não encontrei nada parecido com isso disponível na internet, pedi autorização para o cliente para publicar no Github, e ele autorizou.
